@@ -1,0 +1,35 @@
+.headerWrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 6vh;
+    background-color: #F3F3F3;
+    padding-right: 5rem;
+    position: relative;
+}
+.saveBtn{
+    padding: 5px 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color:#9DA5C3;
+}
+.baseTab{
+    height: 20px;
+    padding: 5px 20px;
+    font-size: 14px;
+    line-height: 16px;
+    position: absolute;
+    left: 50%;
+    top:8px;
+    border-radius: 8px;
+}
+.successTab{
+    background-color: lightgreen;
+}
+.errorTab{
+
+    background-color: #FACBCA;
+}

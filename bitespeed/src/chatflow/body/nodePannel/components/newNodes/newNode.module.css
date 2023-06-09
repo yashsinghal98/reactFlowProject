@@ -1,0 +1,20 @@
+.wrapper{
+    width: 100%;
+    padding: 10px;
+}
+.nodeBox{
+    width: 45%;
+    height: 10vh;
+    border: 1px solid #9DA5C3;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color:#9DA5C3;
+    user-select: none;
+}
+.nodeBox img{
+    height: 20px;margin-bottom: 5px;
+}

@@ -1,0 +1,30 @@
+.customNode {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 1px 4px 8px #E2E2E2;
+    width: 200px;
+  }
+
+  .nodeTitle{
+    display: block;
+    color: black;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 5px;
+    background-color: #B2F0E5;
+    text-align: left;
+  }
+  .nodeInput{
+    font-size: 10px;
+    line-height: 14px;
+    font-size: 400;
+    margin: 10px 0px ;
+    padding: 0px 5px;
+    text-align: left;
+  }
+  
+  .selectedNode{
+    border: 1px solid blue;
+  }
